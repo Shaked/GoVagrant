@@ -1,0 +1,6 @@
+server_external_port: 80
+server_name: 192.168.70.66 
+server_hostname: 192.168.70.66 
+server_document_root: /vagrant/www/
+server_internal_ip: 127.0.0.1
+server_internal_port: 9001

@@ -1,0 +1,10 @@
+- name: Install Golang gvm  
+  shell: curl -s https://raw.github.com/moovweb/gvm/master/binscripts/gvm-installer | bash
+    executable="/bin/bash"
+  ignore_errors: true
+
+- name: Install Golang version
+  command: gvm install go1.2
+    executable=~/.gvm/bin/gvm
+  ignore_errors: true 
+  notify: start gvm
