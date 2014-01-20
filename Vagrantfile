@@ -13,7 +13,6 @@ Vagrant.configure("2") do |config|
 
   config.vm.provider :virtualbox do |vb|
     vb.customize ["modifyvm", :id, "--memory", "1536"] 
-    vb.customize ["modifyvm", :id, "--ostype", "Centos65_64"]
   end
 
   config.vm.provision "ansible" do |ansible|
