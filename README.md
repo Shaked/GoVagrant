@@ -9,14 +9,17 @@ Go Vagrant
 ### Setup & Run
 
  - Set up your /etc/hosts to point to
-   
+
+
     192.168.66.70 go.dev
 
  - Start Vagrant
 
+
      $ vagrant up
 
  - Start the Go app
+
 
      $ ssh vagrant@go.dev 
      $ cd /vagrant/www/app 
