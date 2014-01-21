@@ -1,5 +1,5 @@
 - name: Install nginx package 
-  yum: name=nginx state=present 
+  yum: name=nginx-{{ nginx_version }} state=present 
   sudo: yes
 
 - name: Copy nginx configuration 
