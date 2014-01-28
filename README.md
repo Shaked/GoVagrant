@@ -33,3 +33,6 @@ Go Vagrant
 
 - http://mwholt.blogspot.nl/2013/05/writing-go-golang-web-app-with-nginx.html
 
+#### Known Issues 
+
+- Vagrant Mac [VBoxManage: error: Failed to create the host-only adapter](http://stackoverflow.com/questions/21069908/vboxmanage-error-failed-to-create-the-host-only-adapter)
